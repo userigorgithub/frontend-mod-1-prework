@@ -22,7 +22,8 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here: Data type will be a string because JavaScript
+// uses interpolation to put things together, which uses ${variable_name} syntax.
 
 
 // YOU DO:
@@ -30,7 +31,7 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
-
+console.log(`The ${speedy} jumped over the ${slowPoke}`);
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -39,17 +40,20 @@ var slowPoke = "lazy brown dog";
 
 slowPoke = "tortoise";
 speedy = "hare";
-
+console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`);
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
-  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation. 
-
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+var lastName = "Williams";
+var petNumber = 4;
+var favorite = "loves them all";
+console.log(`Mrs. ${lastName} has ${petNumber} pets and she ${favorite}!`);
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
