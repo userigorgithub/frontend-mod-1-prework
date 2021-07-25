@@ -70,7 +70,7 @@ value should be some appropriate value for that key. Work to have at least 5 key
 Log your email object to the console.
 */
 
-var = myEmail = {
+var myEmail = {
   sender: "Turing School",
   subject: "Application",
   emailNumber: 319,
